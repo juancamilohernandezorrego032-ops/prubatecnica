@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "name": "Camiseta Algodón Premium",
+      "price": 45000,
+      "category": "Ropa",
+      "stock": 25,
+      "image": "https://placehold.co/300x300?text=Camiseta+Premium"
+    },
+    {
+      "id": "2",
+      "name": "Auriculares Bluetooth",
+      "price": 120000,
+      "category": "Electrónica",
+      "stock": 15,
+      "image": "https://placehold.co/300x300?text=Auriculares+BT"
+    },
+    {
+      "id": "3",
+      "name": "Lámpara de Mesa LED",
+      "price": 65000,
+      "category": "Hogar",
+      "stock": 30,
+      "image": "https://placehold.co/300x300?text=Lámpara+LED"
+    },
+    {
+      "id": "4",
+      "name": "Chaqueta Impermeable",
+      "price": 180000,
+      "category": "Ropa",
+      "stock": 10,
+      "image": "https://placehold.co/300x300?text=Chaqueta"
+    },
+    {
+      "id": "5",
+      "name": "Teclado Mecánico RGB",
+      "price": 95000,
+      "category": "Electrónica",
+      "stock": 20,
+      "image": "https://placehold.co/300x300?text=Teclado+RGB"
+    },
+    {
+      "id": "6",
+      "name": "Set de Sartenes Antiadherentes",
+      "price": 150000,
+      "category": "Hogar",
+      "stock": 8,
+      "image": "https://placehold.co/300x300?text=Sartenes"
+    }
+  ]
+}
