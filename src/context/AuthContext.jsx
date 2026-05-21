@@ -20,13 +20,13 @@ export function AuthProvider({ children }) {
     const userData = { username }
     localStorage.setItem('auth_user', JSON.stringify(userData))
     setUser(userData)
-    navigate('/')
+    navigate('/dashboard')
   }, [navigate])
 
   const logout = useCallback(() => {
     localStorage.removeItem('auth_user')
     setUser(null)
-    navigate('/login')
+    navigate('/')
   }, [navigate])
 
   const isAuthenticated = user !== null
