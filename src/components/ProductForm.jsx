@@ -10,6 +10,7 @@ export default function ProductForm({ product, onSubmit, onCancel }) {
 
   useEffect(() => {
     if (product) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setForm({
         name: product.name,
         price: String(product.price),
