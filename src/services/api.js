@@ -1,4 +1,8 @@
-const BASE_URL = 'http://localhost:3001/productos'
+const API_BASE =
+  import.meta.env.VITE_API_URL ??
+  (import.meta.env.PROD ? '/api' : 'http://localhost:3001')
+
+const BASE_URL = `${API_BASE}/productos`
 
 async function request(url, options = {}) {
   const response = await fetch(url, {
