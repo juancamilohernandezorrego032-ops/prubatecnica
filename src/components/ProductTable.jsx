@@ -42,7 +42,10 @@ export default function ProductTable({ products, onEdit, onDelete }) {
                       src={product.image}
                       alt={product.name}
                       className="h-10 w-10 flex-shrink-0 rounded-lg object-cover"
-                      onError={(e) => { e.target.src = 'https://placehold.co/100x100?text=N/A' }}
+                      onError={(e) => {
+                        e.target.onerror = null
+                        e.target.src = `https://picsum.photos/seed/${product.id}/100/100`
+                      }}
                     />
                     <span className="font-medium text-slate-800 dark:text-white">{product.name}</span>
                   </div>

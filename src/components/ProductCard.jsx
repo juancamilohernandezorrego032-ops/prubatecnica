@@ -24,8 +24,12 @@ export default function ProductCard({ product, onEdit, onDelete }) {
         <img
           src={product.image}
           alt={product.name}
+          loading="lazy"
           className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
-          onError={(e) => { e.target.src = 'https://placehold.co/300x300?text=Sin+Imagen' }}
+          onError={(e) => {
+            e.target.onerror = null
+            e.target.src = `https://picsum.photos/seed/${product.id}/600/450`
+          }}
         />
       </div>
       <div className="p-4">

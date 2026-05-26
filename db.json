@@ -6,7 +6,7 @@
       "price": 45000,
       "category": "Ropa",
       "stock": 25,
-      "image": "https://placehold.co/300x300?text=Camiseta+Premium"
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=450&fit=crop&q=80"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "price": 120000,
       "category": "Electrónica",
       "stock": 15,
-      "image": "https://placehold.co/300x300?text=Auriculares+BT"
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=450&fit=crop&q=80"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "price": 65000,
       "category": "Hogar",
       "stock": 30,
-      "image": "https://placehold.co/300x300?text=Lámpara+LED"
+      "image": "https://images.unsplash.com/photo-1507473885765-e6edac5c4c94?w=600&h=450&fit=crop&q=80"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "price": 180000,
       "category": "Ropa",
       "stock": 10,
-      "image": "https://placehold.co/300x300?text=Chaqueta"
+      "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=450&fit=crop&q=80"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "price": 95000,
       "category": "Electrónica",
       "stock": 20,
-      "image": "https://placehold.co/300x300?text=Teclado+RGB"
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=450&fit=crop&q=80"
     },
     {
       "id": "6",
@@ -46,7 +46,8 @@
       "price": 150000,
       "category": "Hogar",
       "stock": 8,
-      "image": "https://placehold.co/300x300?text=Sartenes"
+      "image": "https://images.unsplash.com/photo-1556911223-e2b072d8b858?w=600&h=450&fit=crop&q=80"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
