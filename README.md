@@ -294,6 +294,9 @@ npm run dev -- --port 3000
 # API en puerto diferente:
 npm run api -- -p 3002
 ```
+##  LINK DE VERCEL PRUEBA TECNICA  
+
+*** --https://prubatecnica.vercel.app/dashboard 
 
 ### LocalStorage no funciona
 
@@ -305,7 +308,7 @@ npm run api -- -p 3002
 
 Este proyecto es una prueba técnica y está disponible bajo licencia MIT.
 
-## 👨‍💻 Autor
+## 👨‍💻 JUAN CAMILO HERNANDEZ ORREGO 
 
 Desarrollado como evaluación técnica para la posición de Desarrollador Frontend Junior.
 
